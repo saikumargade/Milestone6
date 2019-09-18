@@ -1,0 +1,23 @@
+{
+  "name": "milestone6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saikumargade/Milestone6.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saikumargade/Milestone6/issues"
+  },
+  "homepage": "https://github.com/saikumargade/Milestone6#readme",
+  "dependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
