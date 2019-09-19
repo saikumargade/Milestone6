@@ -5,7 +5,12 @@ const newsSchema = mongoose.Schema({
     time: {
         type: Date,
         default: Date.now
-    }
+    },
+    person: String,
+    likes: Number,
+    comments: String
+
+
 });
 
 module.exports = mongoose.model('new',newsSchema);
